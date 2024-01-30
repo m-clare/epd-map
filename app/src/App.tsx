@@ -10,11 +10,7 @@ const theme = createTheme({
   palette: {
     background: {
       paper: "#fff",
-    },
-    statusColor: {
-      unretrofit: "#fe4a49",
-      retrofit: "#2ab7ca",
-      retrofitNR: "#fed766",
+      header: "#2ab7ca",
     },
   },
   typography: {

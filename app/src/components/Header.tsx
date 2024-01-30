@@ -3,7 +3,6 @@ import Container from "@mui/material/Container";
 import AppBar from "@mui/material/AppBar";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
-import InfoIcon from "@mui/icons-material/Info";
 import Link from "@mui/material/Link";
 import LinkIcon from "@mui/icons-material/Link";
 import GitHubIcon from "@mui/icons-material/GitHub";
@@ -17,7 +16,7 @@ function Header() {
         width: "100%",
       }}
     >
-      <AppBar sx={{ backgroundColor: "statusColor.retrofit" }}>
+      <AppBar sx={{ backgroundColor: "background.header" }}>
         <Container maxWidth="lg">
           <Toolbar>
             <Box sx={{ flexGrow: 1, flexDirection: "column", gap: 0 }}>
