@@ -46,21 +46,6 @@ function Header() {
               </div>
             </Box>
             <Link
-              href="https://mclare.blog/posts/mapping-los-angeles-soft-story-retrofit-program/"
-              underline="none"
-              style={{ display: "inline-block" }}
-            >
-              <div style={{ position: "relative", paddingRight: 12 }}>
-                <InfoIcon
-                  sx={{
-                    color: "white",
-                    display: "inline-block",
-                    verticalAlign: "middle",
-                  }}
-                />
-              </div>
-            </Link>
-            <Link
               href="https://github.com/m-clare/epd-map"
               underline="none"
               style={{ display: "inline-block" }}
